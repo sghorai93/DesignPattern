@@ -11,8 +11,8 @@ public class OperatingSystemFactory {
 		case LINUX:
 			return new Linux();
 		default:
-            throw new RuntimeException("Specify Object Type");
-        }
+			throw new RuntimeException("Specify Object Type");
+		}
 	}
 
 }
